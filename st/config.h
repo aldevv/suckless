@@ -154,28 +154,24 @@ float alpha = 0.7, alphaUnfocused = 0.7;
 // GRUVBOX
 
 static const char *colorname[] = {
-    [0] = "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-
-    [1] = "#fb4934", /* stdout (using color), this should be red, but was  #689d6a */
-
-    [2] = "#1e7f76",  // terminal command color
+    [0] = "#282828", /* black   */
+    [1] = "#cc241d", /* red     */
+    [2] = "#98971a", /* green   */
     [3] = "#d79921", /* yellow  */
     [4] = "#458588", /* blue    */
     [5] = "#b16286", /* magenta */
-
-    [6] = "#689d6a", /* cyan stderr (using color) this one was wrong in the patch, supposed to be cyan, was #689d6a  */
-
-    [7] = "#ebdbb2", /* white search background (using less)   */
+    [6] = "#689d6a", /* cyan    */
+    [7] = "#a89984", /* white   */
 
     /* 8 bright colors */
-    [8]  = "#95b6da", /* black   */
+    [8]  = "#928374", /* black   */
     [9]  = "#fb4934", /* red     */
     [10] = "#b8bb26", /* green   */
     [11] = "#fabd2f", /* yellow  */
-    [12] = "#639cd5", /* blue    */  // directory colors and search color text (using less)
+    [12] = "#83a598", /* blue    */
     [13] = "#d3869b", /* magenta */
     [14] = "#8ec07c", /* cyan    */
-    [15] = "#ebdbb2", /* white  */
+    [15] = "#ebdbb2", /* white   */
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	[256] = "#add8e6", /* 256 -> cursor */
