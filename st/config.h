@@ -151,27 +151,52 @@ float alpha = 0.7, alphaUnfocused = 0.7;
 // #include "/home/jubernal/.cache/wal/colors-wal-st.h"
 // simply uncomment colorname and the 4 lines under (defaultbg etc) if you want defaults
 
-// GRUVBOX
+// GRUVBOX (commented out — uncomment and remove KITTY block to switch back)
+// static const char *colorname[] = {
+//     [0] = "#282828", /* black   */
+//     [1] = "#cc241d", /* red     */
+//     [2] = "#98971a", /* green   */
+//     [3] = "#d79921", /* yellow  */
+//     [4] = "#458588", /* blue    */
+//     [5] = "#b16286", /* magenta */
+//     [6] = "#689d6a", /* cyan    */
+//     [7] = "#a89984", /* white   */
+//     /* 8 bright colors */
+//     [8]  = "#928374", /* black   */
+//     [9]  = "#fb4934", /* red     */
+//     [10] = "#b8bb26", /* green   */
+//     [11] = "#fabd2f", /* yellow  */
+//     [12] = "#83a598", /* blue    */
+//     [13] = "#d3869b", /* magenta */
+//     [14] = "#8ec07c", /* cyan    */
+//     [15] = "#ebdbb2", /* white   */
+//     [255] = 0,
+//     [256] = "#add8e6", /* 256 -> cursor */
+//     [257] = "#555555", /* 257 -> rev cursor */
+//     [258] = "#282828", /* 258 -> bg */
+//     [259] = "#FFFFFF", /* 259 -> fg */
+// };
 
+// KITTY defaults (16 ANSI colors); bg/fg/cursor kept from previous setup
 static const char *colorname[] = {
-    [0] = "#282828", /* black   */
-    [1] = "#cc241d", /* red     */
-    [2] = "#98971a", /* green   */
-    [3] = "#d79921", /* yellow  */
-    [4] = "#458588", /* blue    */
-    [5] = "#b16286", /* magenta */
-    [6] = "#689d6a", /* cyan    */
-    [7] = "#a89984", /* white   */
+    [0] = "#000000", /* black   */
+    [1] = "#cc0403", /* red     */
+    [2] = "#19cb00", /* green   */
+    [3] = "#cecb00", /* yellow  */
+    [4] = "#0d73cc", /* blue    */
+    [5] = "#cb1ed1", /* magenta */
+    [6] = "#0dcdcd", /* cyan    */
+    [7] = "#dddddd", /* white   */
 
     /* 8 bright colors */
-    [8]  = "#928374", /* black   */
-    [9]  = "#fb4934", /* red     */
-    [10] = "#b8bb26", /* green   */
-    [11] = "#fabd2f", /* yellow  */
-    [12] = "#83a598", /* blue    */
-    [13] = "#d3869b", /* magenta */
-    [14] = "#8ec07c", /* cyan    */
-    [15] = "#ebdbb2", /* white   */
+    [8]  = "#767676", /* black   */
+    [9]  = "#f2201f", /* red     */
+    [10] = "#23fd00", /* green   */
+    [11] = "#fffd00", /* yellow  */
+    [12] = "#1a8fff", /* blue    */
+    [13] = "#fd28ff", /* magenta */
+    [14] = "#14ffff", /* cyan    */
+    [15] = "#ffffff", /* white   */
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	[256] = "#add8e6", /* 256 -> cursor */
