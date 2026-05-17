@@ -22,6 +22,7 @@ static char *font = "DaddyTimeMono Nerd Font Mono:pixelsize=14:antialias=true:au
 /* static char *font = "Terminus Nerd Font Mono:pixelsize=14:antialias=true:autohint=true"; */
 static char *font2[] = {
 //     "NotoColorEmoji:pixelsize=12:antialias=true:autohint=true", // Unicode (emojis)
+    "Noto Sans Symbols2:pixelsize=14:antialias=true:autohint=true", // monochrome symbols (✔ ✓ etc) so they pick up fg color; no color-emoji overlap
     "JoyPixels:pixelsize=14:antialias=true:autohint=true",
 // 	"monospace:pixelsize=12",
 //
